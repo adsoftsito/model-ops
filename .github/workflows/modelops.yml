@@ -18,6 +18,7 @@ jobs:
     - name: run model 
       run: python linear-model.py
     - name: list model
-      run: ls -la linear-model
+      run: ls -la linear-model/1
+      
 
 
