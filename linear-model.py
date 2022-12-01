@@ -9,7 +9,8 @@ print(tf.__version__)
 # opcional, leer datos de CSV, SQL server, Oracle, API
 X = np.arange(-10.0, 10.0, 1e-2)
 np.random.shuffle(X)
-y =  2.0 * X + 1.0
+#y =  2.0 * X + 1.0
+y = X * 1.8 + 32
 
 train_end = int(0.6 * len(X))
 test_start = int(0.8 * len(X))
